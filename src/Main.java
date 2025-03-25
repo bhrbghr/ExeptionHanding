@@ -8,10 +8,10 @@ public class Main {
             System.out.println(e.getMessage());
         }
 
-        createAndAddBook(library, "Java Programming", 400);
-        createAndAddBook(library, "Data Structure", -2);
+        createAndAddBook(library, "Java Programming", 300);
+        createAndAddBook(library, "Design Patterns", -3);
         createAndAddBook(library, null, 100);
-        createAndAddBook(library, "",100);
+        createAndAddBook(library, "",400);
 
         try {
             library.listBooks();
