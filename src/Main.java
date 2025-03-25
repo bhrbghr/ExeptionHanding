@@ -28,7 +28,7 @@ public class Main {
         }
 
         try {
-            library.returnBook("Non-existent book");
+            library.returnBook("Clean Code");
         } catch (BookNotFoundException e) {
             System.out.println(e.getMessage());
         }
